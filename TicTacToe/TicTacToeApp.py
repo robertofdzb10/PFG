@@ -3,7 +3,7 @@ import tkinter as tk
 from TicTacToe.alphabeta4_4 import Tic as Tic4x4, determine as determine4x4, get_enemy
 from TicTacToe.alphabeta3_3 import Tic as Tic3x3, determine as determine3x3
 import gestureDetection.gestosToTicTacToe as ttt
-from urx import coger_pieza, dejar_pieza, recoger_tablero, monitor_force, desapilar_pieza, apilar_pieza_de_vuelta
+from robot.urx import coger_pieza, dejar_pieza, recoger_tablero, monitor_force, desapilar_pieza, apilar_pieza_de_vuelta
 
 class TicTacToeApp:
     def __init__(self, root, board_size, determine_func):
