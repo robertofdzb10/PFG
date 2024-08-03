@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#board {
+    display: inline-block;
+    position: relative;
+}
+
+#board img {
+    width: 400px;
+    height: 400px;
+}
+
+.cell {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
